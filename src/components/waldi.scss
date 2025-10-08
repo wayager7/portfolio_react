@@ -1,0 +1,109 @@
+@keyframes waldi_waldi{
+    0% { opacity: 0; height: 0;}
+    15% { opacity: 1; height: 35vh;}
+    100% { opacity: 1; height: 35vh;}
+}
+@keyframes waldi_link{
+    0% { opacity: 0; height: 0;}
+    10% { opacity: 0; height: 0;}
+    25% { opacity: 1; height: 21vh;}
+    100% { opacity: 1; height: 21vh;}
+}
+@keyframes waldi_softwares{
+    0% { opacity: 0; height: 0;}
+    20% { opacity: 0; height: 0;}
+    35% { opacity: 1; height: 60vh;}
+    100% { opacity: 1; height: 60vh;}
+}
+@keyframes waldi_IA{
+    0% { opacity: 0; height: 0;}
+    20% { opacity: 0; height: 0;}
+    35% { opacity: 1; height: 40vh;}
+    100% { opacity: 1; height: 40vh;}
+}
+@keyframes waldi_frise{
+    0% { opacity: 0; height: 0;}
+    30% { opacity: 0; height: 0;}
+    45% { opacity: 1; height: 35vh;}
+    100% { opacity: 1; height: 35vh;}
+}
+@keyframes waldi_analysis{
+    0% { opacity: 0; height: 0;}
+    15% { opacity: 0; height: 0;}
+    30% { opacity: 1; height: 65vh;}
+    100% { opacity: 1; height: 65vh;}
+}
+@keyframes waldi_skills{
+    0% { opacity: 0; height: 0;}
+    10% { opacity: 0; height: 0;}
+    25% { opacity: 1; height: 65vh;}
+    100% { opacity: 1; height: 65vh;}
+}
+
+.waldi {    
+display: flex;
+flex-direction: row;
+    #waldi {
+      overflow: hidden;
+      height: 35vh;
+      width: 24vw;
+
+      .waldi__image{
+        height: 35vw;
+        width: 35vw; 
+        position: relative;
+        left: -35%;
+        top: -10vh;
+      }
+    animation: waldi_waldi  2.5s  ;
+    }
+    #link{
+        position: relative;
+        width: 24vw;
+        height: 21vh;
+        top: 35vh;
+        animation: waldi_link  2.5s  ;
+    }
+    #softwares{
+        position: absolute;
+        top: 0px;
+        left: 24vw;
+        height: 60vh;
+        width: 18.5vw;
+        animation: waldi_softwares  2.5s  ;
+    }
+    #IA{
+        height: 40vh;
+        width: 42.5vw;
+        position: absolute;
+        bottom: 0px;
+        animation: waldi_IA  2.5s   ;
+    }
+    #frise{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 35vh;
+        width: 57vw;
+        animation: waldi_frise  2.5s   ;
+    }
+    #analysis{
+        position: absolute;
+        bottom: 0;
+        right: 23vw;
+        height: 65vh;
+        width: 34vw;
+        animation: waldi_analysis  2.5s   ;
+    }
+    #skills{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        height: 65vh;
+        width: 23vw;
+        animation: waldi_skills  2.5s   ;
+    }
+}
+::-webkit-scrollbar {
+    display: none;    
+}
