@@ -1,16 +1,15 @@
 import React from "react";
+import Window from './window.jsx'
+import './projets.scss';
+
 
 
 const Projets = () => {
     return (
         <div className="projets">
-            <h2>Projets</h2>
-            <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
-            <ul>
-                <li>Projet 1</li>
-                <li>Projet 2</li>
-                <li>Projet 3</li>
-            </ul>
+            <Window nom="Projets" id="projets" contenu={<h2>Choose a project</h2>}/>
+            <Window nom="Projet_description" id="PD"/>
+            <Window nom="Pictures" id="Pictures"/>
         </div>
     );
 };
