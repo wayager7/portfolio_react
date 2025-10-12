@@ -1,15 +1,12 @@
 import React from "react";
+import Window from './window.jsx'
+import './gallery.scss';
 
 const Gallery = () => {
     return (
         <div className="gallery">
-            <h2>Gallery</h2>
-            <p>Voici quelques images de mes projets :</p>
-            <ul>
-                <li>Image 1</li>
-                <li>Image 2</li>
-                <li>Image 3</li>
-            </ul>
+            <Window nom="Gallery" id="gallery" contenu={<h2>Welcome to the Gallery</h2>}/>
+            <Window nom="result" id="result" contenu={<p>Voici quelques images de mes projets :</p>}/>
         </div>
     );
 };
