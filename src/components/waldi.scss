@@ -94,6 +94,9 @@ flex-direction: row;
         height: 65vh;
         width: 34vw;
         animation: waldi_analysis  2.5s   ;
+        .window-content{
+            height: 90%;
+        }
     }
     #skills{
         position: absolute;
