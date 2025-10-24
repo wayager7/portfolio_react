@@ -27,7 +27,7 @@ function Analysis() {
                 }
             };
 
-            const intervalId = setInterval(typeText, 50);
+            const intervalId = setInterval(typeText, 20);
 
             return () => {
                 clearInterval(intervalId);
