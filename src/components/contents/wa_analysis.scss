@@ -13,13 +13,17 @@
         align-items: center;
         width: 92%;
         margin-top: 3vh;
+        min-height: 60%;
 
         .ana_options{
             display: flex;
             flex-direction: column;
             gap: 10px;
+            position: relative;
+            z-index: 2;
             .ana_option{
                 border: solid 1px #fe19ff;
+                background-color: #17195782;
                 padding: 7px;
                 width: fit-content;
                 font-size: 1.2rem;
@@ -30,8 +34,19 @@
         .ana_img{
             height: 100%;
             width: 40%;
-            border: solid 1px #fe19ff;
-            // position: relative;
+            // border: solid 1px #fe19ff;
+            display: flex;
+            // align-items: center;
+            justify-content: end;
+            position: relative;
+            z-index: 1;
+            // padding-right: 5%;
+            // overflow: hidden;
+            // img{
+            //     max-width: 100%;
+            //     max-height: 100%;
+            //     object-fit: cover;
+            // }
         }
     }
     

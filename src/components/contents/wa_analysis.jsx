@@ -1,5 +1,6 @@
 import React from "react";
-import './analysis.scss';
+import './wa_analysis.scss';
+import frame from '../../assets/moi/Frame_252.png';
 
 function Analysis() {
     return (
@@ -12,7 +13,9 @@ function Analysis() {
                     <div className="ana_option">Fairy fingers</div>
                     <div className="ana_option">Solid Support</div>
                 </div>
-                <div className="ana_img"></div>
+                <div className="ana_img">
+                    <img src={frame} alt="Frame 252" />
+                </div>
             </div>
             <div className="ana_answere">
                 <p>Impossible to know exactly what's hidden there, but many ideas are jostling around.</p>
