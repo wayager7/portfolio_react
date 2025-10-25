@@ -53,7 +53,9 @@
     .ana_answere{
         border: solid 1px #fe19ff;
         width: 92%;
-        height: 18vh;
+        height: 17vh;
+        min-height: 17vh;
+
         p{
             margin: 5px;
             font-size: 1.2rem;

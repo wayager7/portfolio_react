@@ -12,9 +12,11 @@
         min-height: 60%;
     }
     .eva_answere{
-        height: 18vh;
+        height: 17vh;
+        min-height: 17vh;
         border: solid 1px #FE19FF;
         width: 92%;
+        // overflow: scroll;
         p{
             margin: 5px;
             font-size: 1.2rem;
