@@ -105,6 +105,9 @@ flex-direction: row;
         height: 65vh;
         width: 27vw;
         animation: waldi_skills  2.5s   ;
+        .window-content{
+            height: 90%;
+        }
     }
 }
 ::-webkit-scrollbar {
