@@ -78,6 +78,13 @@ flex-direction: row;
         position: absolute;
         bottom: 0px;
         animation: waldi_IA  2.5s   ;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        .window-content{
+            height: 100%;
+            width: 100%;
+        }
     }
     #frise{
         position: absolute;

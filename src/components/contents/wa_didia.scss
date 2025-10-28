@@ -1,0 +1,32 @@
+.IA{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    .conv_ia{
+        height: 90%;
+        display: flex;
+        .img_ia{
+            width: 30%;
+            // background-color: #FE19FF;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            img{
+                width: 100%;
+            }
+        }
+        .conv{
+            width: 70%;
+            // background-color: #800083;
+        }
+    }
+    #question{
+        height: 10%;
+        margin: 0;
+        background-color: #171957;
+        border-top: solid #FE19FF 1px;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
