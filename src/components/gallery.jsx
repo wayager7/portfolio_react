@@ -1,6 +1,6 @@
 import React from "react";
 import Window from './window.jsx'
-import './gallery.scss';
+import './style/gallery.scss';
 import Travaux from "./contents/travaux.jsx";
 
 

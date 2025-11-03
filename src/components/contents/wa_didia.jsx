@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import './wa_didia.scss'
+import './style/wa_didia.scss'
 import IAPNG from '../../assets/moi/ia.png'
 
 function Didia() {

@@ -1,6 +1,6 @@
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts';
 import React, { useState, useEffect, useMemo} from "react";
-import './wa_evaluation.scss';
+import './style/wa_evaluation.scss';
 
 
 function Evaluation() {

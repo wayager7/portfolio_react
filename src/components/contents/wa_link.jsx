@@ -1,5 +1,5 @@
 import React from "react";
-import './wa_link.scss';
+import './style/wa_link.scss';
 import cv from '../../assets/moi/cv2025_10_24.pdf';
 import ico_cv from '../../assets/moi/ico_cv.png';
 import ico_lkdn from '../../assets/moi/ico_lkdn.png';

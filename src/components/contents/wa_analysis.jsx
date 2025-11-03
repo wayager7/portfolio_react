@@ -1,6 +1,6 @@
 // import React from "react";
 import React, { useState, useEffect, useMemo } from "react";
-import './wa_analysis.scss';
+import './style/wa_analysis.scss';
 import frame from '../../assets/moi/Frame_252.png';
 
 function Analysis() {

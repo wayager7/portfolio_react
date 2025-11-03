@@ -1,5 +1,5 @@
 import React from 'react';
-import './accueil.scss';
+import './style/accueil.scss';
 
 const Accueil = ({ onLeaveClick, onStartClick }) => {
   return (

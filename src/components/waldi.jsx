@@ -1,7 +1,7 @@
 import React from "react";
 import Window from './window.jsx'
 import moi from '../assets/moi/WALDII.png';
-import './waldi.scss';
+import './style/waldi.scss';
 import Analysis from './contents/wa_analysis.jsx';
 import Link from './contents/wa_link.jsx';
 import Evaluation from './contents/wa_evaluation.jsx';

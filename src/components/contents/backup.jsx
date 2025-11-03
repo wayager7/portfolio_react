@@ -1,5 +1,5 @@
 import React from "react";
-import './backup.scss';
+import './style/backup.scss';
 import ico_wf from '../../assets/accueil/ico_wf.png';
 import ico_projets from '../../assets/accueil/ico_pro.png';
 import ico_gallery from '../../assets/accueil/ico_gal.png';

@@ -1,6 +1,6 @@
 import React from "react";
 import Window from './window.jsx'
-import './projets.scss';
+import './style/projets.scss';
 import Travaux from "./contents/travaux.jsx";
 
 
