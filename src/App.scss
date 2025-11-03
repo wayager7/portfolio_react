@@ -9,7 +9,7 @@
 // window component styles
 #leave {
   position: relative;
-  z-index: 20;
+  z-index: 50;
   color: #fff;
   margin: 0;
   line-height: 1.7rem;
@@ -85,4 +85,47 @@
   }
 }
 
+.fondtrav{
+  background-color: #000000b4;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 49;
+  left: 50%;
+  top: 50%;
+  pointer-events: none; 
+
+}
+#travaux{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  top: 50%;
+  .trav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    img{
+      width: 70%;
+      margin: 10px;
+    }
+    p{
+      margin: 5px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .after{
+      color: #FE19FF;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      text-decoration: none;
+    } 
+    .after:hover{
+      color: #980093;
+    }
+  }
+}
 
