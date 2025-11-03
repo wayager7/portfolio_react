@@ -19,14 +19,37 @@
         .conv{
             width: 70%;
             // background-color: #800083;
+            overflow-y: scroll;
+            padding-left: 2px;
+            .mess_ia{
+                color: #FE19FF;
+            }
+            .mess_ia::before{
+                content: "@Wald-ia — ";
+                color: yellow;
+
+            }
+            .mess_hu{
+                color: #ffffff;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+            .mess_hu::before{
+                content: "@human-u — ";
+                color: yellow;
+            }
         }
     }
     #question{
         height: 10%;
         margin: 0;
-        background-color: #171957;
-        border-top: solid #FE19FF 1px;
-        color: white;
-        font-size: 1.5rem;
+        input{
+            background-color: #171957;
+            border-top: solid #FE19FF 1px;
+            color: white;
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        
     }
 }
