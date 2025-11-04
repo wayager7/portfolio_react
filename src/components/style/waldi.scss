@@ -72,6 +72,11 @@ flex-direction: row;
         height: 60vh;
         width: 18.5vw;
         animation: waldi_softwares  2.5s  ;
+        .window-content{
+            height: 95%;
+            width: 100%;
+            overflow: visible;
+        }
     }
     #IA{
         height: 40vh;

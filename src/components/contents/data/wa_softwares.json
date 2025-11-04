@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "photoshop",
+        "description": "blabla je suis photoshop un super logiciel de retouche photo en tout genre",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 1,
+        "name": "figma",
+        "description": "",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 2,
+        "name": "after effect",
+        "description": "",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 3,
+        "name": "vs code",
+        "description": "",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 4,
+        "name": "blender",
+        "description": "blabla je suis photoshop un super logiciel de retouche photo en tout genre",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 5,
+        "name": "fl studio",
+        "description": "",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 6,
+        "name": "notion",
+        "description": "",
+        "image": "/vite.svg"
+    },
+    {
+        "id": 7,
+        "name": "discord",
+        "description": "",
+        "image": "/vite.svg"
+    }
+]

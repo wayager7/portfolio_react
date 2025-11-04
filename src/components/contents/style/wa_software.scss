@@ -1,0 +1,47 @@
+.tools{
+    // background-image: url(../../../assets/moi/sw/back.png);
+    // background-size: cover;
+
+    // background-color: #c6c6c6;
+    background-color: #121344 ;
+    width: 100%;
+    // color: #3f3f3f;
+    display: flex;
+    padding: 1vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    p{
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .item{
+        border-left: solid #050513; 
+        border-top: solid #050513;
+        border-bottom: solid #171957;
+        border-right: solid #171957;
+        // background-color: #8b8b8b;
+        background-color: #0D0E2F;
+        width: 45%;
+        height: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        img{
+            width: 60%;
+        }
+        
+    }
+    .tooltip{
+        position: absolute;
+        top: 60px;
+        z-index: 20;
+        background-color: #171957;
+        border: solid #272cb7;
+        // font-size: 0.9rem;
+        width: 15vw;
+    }
+}
