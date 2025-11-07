@@ -18,6 +18,7 @@
         }
         .conv{
             width: 70%;
+            height: 98%;
             // background-color: #800083;
             overflow-y: scroll;
             padding-left: 2px;
@@ -43,6 +44,8 @@
     #question{
         height: 10%;
         margin: 0;
+        padding: 0;
+        border: none;
         input{
             background-color: #171957;
             border-top: solid #FE19FF 1px;

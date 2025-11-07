@@ -8,17 +8,17 @@ const Backup = ({onWaldiClick, onProjetsClick, onGalleryClick}) => {
     return (
         <div className="backup">
             <h2>Select Level</h2>
-            <div className="file" onClick={onWaldiClick}>
+            <div className="file" tabIndex="0" onClick={onWaldiClick}>
                 {/* <div className="icone"></div> */}
                 <img src={ico_wf} className="icone" alt="" />
                 <h3>Waldi_fiaga</h3>
             </div>
-            <div className="file" onClick={onProjetsClick}>
+            <div className="file" tabIndex="0" onClick={onProjetsClick}>
                 {/* <div className="icone"></div> */}
                 <img src={ico_projets} className="icone" alt="" />
                 <h3>Projets</h3>
             </div>
-            <div className="file" onClick={onGalleryClick}>
+            <div className="file" tabIndex="0" onClick={onGalleryClick}>
                 {/* <div className="icone"></div> */}
                 <img src={ico_gallery} className="icone" alt="" />
                 <h3>Gallery</h3>

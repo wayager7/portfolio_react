@@ -14,7 +14,7 @@ function Softwares(){
                         key={u.id}
                         onMouseEnter={() => setHoveredId(u.id)}
                         onMouseLeave={() => setHoveredId(null)}
-                        className='item' tabIndex="0"
+                        className='item' 
                     >
                         <img src={u.image} alt={u.name}/>
                         {hoveredId === u.id && (

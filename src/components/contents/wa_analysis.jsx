@@ -46,13 +46,15 @@ function Analysis() {
                 <div className="ana_options">
                     
                     {Object.keys(texts).map((option) => (
-                        <div 
+                        <button 
                             key={option}
+                            // role="button"
+                            // tabIndex="0"
                             className={`ana_option ${selectedOption === option ? 'active' : ''}`}
                             onClick={() => handleClick(option)}
                         >
                             {option}
-                        </div>
+                        </button>
                     ))}
                 </div>
                 <div className="ana_img">

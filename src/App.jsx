@@ -47,27 +47,27 @@ function App() {
             onProjetsClick={() => { setShowProjets(true); setShowBackup(false); }} 
             onGalleryClick={() => { setShowGallery(true); setShowBackup(false); }} 
           />} />
-          <p id='leave' onClick={() => { setShowBackup(false); setShowAccueil(true); }}>{'<='} Leave</p>
+          <a id='leave' href='' onClick={() => { setShowBackup(false); setShowAccueil(true); }}>{'<='} Leave</a>
         </>
       )}
 
       {showWaldi && (
         <>
-          <p id='leave' onClick={() => { setShowWaldi(false); setShowBackup(true); }}>{'<='} Leave</p>
+          <button id='leave' tabIndex="0" onClick={() => { setShowWaldi(false); setShowBackup(true); }}>{'<='} Leave</button>
           <Waldi />
         </>
       )}
 
       {showProjets && (
         <>
-          <p id='leave' onClick={() => { setShowProjets(false); setShowBackup(true); }}>{'<='} Leave</p>
+          <button id='leave' tabIndex="0" onClick={() => { setShowProjets(false); setShowBackup(true); }}>{'<='} Leave</button>
           <Projets />
         </>
       )}
 
       {showGallery && (
         <>
-          <p id='leave' onClick={() => { setShowGallery(false); setShowBackup(true); }}>{'<='} Leave</p>
+          <button id='leave' tabIndex="0" onClick={() => { setShowGallery(false); setShowBackup(true); }}>{'<='} Leave</button>
           <Gallery />
         </>
       )}

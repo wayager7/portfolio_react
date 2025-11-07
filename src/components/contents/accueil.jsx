@@ -5,12 +5,12 @@ const Accueil = ({ onLeaveClick, onStartClick }) => {
   return (
     <div className="accueil">
         <div className="menu">
-            <div className="boutton" onClick={onStartClick}>
+            <button className="boutton" tabIndex="0" onClick={onStartClick}>
                 <h2>Start</h2>
-            </div>
-            <div className="boutton" onClick={onLeaveClick}>
+            </button>
+            <button className="boutton" tabIndex="0" onClick={onLeaveClick}>
                 <h2>Leave</h2>
-            </div>
+            </button>
         </div>
     </div>
   );

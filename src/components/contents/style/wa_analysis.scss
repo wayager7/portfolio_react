@@ -24,11 +24,17 @@
             .ana_option{
                 border: solid 1px #fe19ff;
                 background-color: #17195782;
+                color: white;
                 padding: 7px;
                 width: fit-content;
                 font-size: 1.2rem;
+                  text-transform: uppercase;
+
                 cursor: pointer;
                 &:hover{background-color: #980093; color: rgb(255, 255, 255);}
+            }
+            .active{
+                background-color: #980093; color: rgb(255, 255, 255);
             }
         }
         .ana_img{
