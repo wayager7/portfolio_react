@@ -2,49 +2,49 @@
     {
         "id": 0,
         "name": "photoshop",
-        "description": "blabla je suis photoshop un super logiciel de retouche photo en tout genre",
+        "description": "Logiciel de créaction et de retouche d'images",
         "image": "/Ps.gif"
     },
     {
         "id": 1,
         "name": "figma",
-        "description": "",
+        "description": "Logiciel de création et de prototypage d'interface utilisateurs",
         "image": "/figma.gif"
     },
     {
         "id": 2,
         "name": "after effect",
-        "description": "",
+        "description": "Logiciel de motion design et d'animation graphique",
         "image": "/Ae.gif"
     },
     {
         "id": 3,
         "name": "vs code",
-        "description": "",
+        "description": "Logiciel de developpement et d'édition de code",
         "image": "/vsc.gif"
     },
     {
         "id": 4,
         "name": "blender",
-        "description": "blabla je suis photoshop un super logiciel de retouche photo en tout genre",
+        "description": "Logiciel de modélisation, d'animation et de rendu 3D",
         "image": "/blender.gif"
     },
     {
         "id": 5,
         "name": "fl studio",
-        "description": "",
+        "description": "Logiciel de mixage et de production musicale",
         "image": "/flstu.gif"
     },
     {
         "id": 6,
         "name": "notion",
-        "description": "",
+        "description": "Logiciel d'organisation et de prise de notes",
         "image": "/notion.gif"
     },
     {
         "id": 7,
         "name": "discord",
-        "description": "",
+        "description": "Logiciel de communuication par texte, voix et vidéo",
         "image": "/discord.gif"
     }
 ]
