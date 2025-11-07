@@ -1,0 +1,36 @@
+.time_travel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    div{
+        border: solid;
+    }
+    .time_arrow{
+        height: 30%;
+    }
+    .time_info{
+        height: 60%;
+    }
+}
+// .arrow-line {
+//   position: relative;
+//   width: 120px;              /* longueur de la ligne */
+//   height: 0;
+//   border-top: 4px dashed #ff00ff; /* ligne pointillée rose/violette */
+//   margin: 30px;
+// }
+
+// .arrow-line::after {
+//   content: "";
+//   position: absolute;
+//   right: -10px;               /* place la flèche à la fin */
+//   top: -6px;                  /* ajuste la hauteur */
+//   width: 0;
+//   height: 0;
+//   border-top: 10px solid transparent;
+//   border-bottom: 10px solid transparent;
+//   border-left: 15px solid #ff00ff; /* flèche pleine */
+// }

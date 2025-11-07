@@ -99,6 +99,10 @@ flex-direction: row;
         height: 35vh;
         width: 57vw;
         animation: waldi_frise  2.5s   ;
+        .window-content{
+            width: 100%;
+            height: 90%;
+        }
     }
     #analysis{
         position: absolute;
