@@ -5,32 +5,116 @@
     height: 100%;
     width: 100%;
     justify-content: space-around;
-    div{
-        border: solid;
-    }
+    // div{
+    //     border: solid;
+    // }
     .time_arrow{
         height: 30%;
+        .annees{
+            display: flex;
+            justify-content: space-evenly;
+            width: 95%;
+            position: absolute;
+            p{
+                margin: 0;
+                position: relative;
+                z-index: 5;
+                font-size: 1.3rem;
+                // transform: translate(50%, 50%);
+            }
+            p::after{
+                content: "|";
+                position: absolute;
+                left: 50%;
+                bottom: -70%;
+                // z-index: 5;
+            }
+        }
+        .arrow-line {
+          position: relative;
+          width: 95%;              /* longueur de la ligne */
+          height: 10%;
+          border-top: 4px dashed #ff00ff; /* ligne pointillée rose/violette */
+        //   margin: 30px;
+          top: 30px;
+          margin-left: 0;
+        }
+        .arrow-line::after {
+          content: "";
+          position: absolute;
+          right: -10px; 
+          top: -12px; 
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-left: 15px solid #ff00ff; /* flèche pleine */
+        }
+        .crochets{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            position: relative;
+            top: 45%;
+            .crochet{
+                border: solid 1px #FE19FF;
+                border-top: none;
+                height: 100%;
+                cursor: pointer;
+            }:hover{
+                    border: solid 2px #FE19FF;
+                    border-top: none;
+                }
+            #un{
+                position: relative;
+                left: -2%;
+                width: 33%;
+            }
+            #deux{
+                width: 58%;
+            }
+            #trois{
+                border-right: none;
+                position: relative;
+                left: 2%;
+                width: 14%;
+            }
+        }
     }
     .time_info{
         height: 60%;
+        display: flex;
+        flex-direction: row;
+        // border: solid;
+        .eventimg{
+            border: solid 1px #FE19FF;
+            width: 20%;
+            margin: 10px;
+            background-color: black;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+        .eventtext{
+            border: solid 1px #FE19FF;
+            margin: 10px;
+            margin-left: 0 ;
+            width: 80%;
+            h3{
+                margin: 4px;
+                font-size: 1.2rem;
+                width: 70%;
+            }
+            p{
+                margin: 0;
+                margin-left: 4px;
+                font-size: 1rem;
+            }
+        }
     }
 }
-// .arrow-line {
-//   position: relative;
-//   width: 120px;              /* longueur de la ligne */
-//   height: 0;
-//   border-top: 4px dashed #ff00ff; /* ligne pointillée rose/violette */
-//   margin: 30px;
-// }
 
-// .arrow-line::after {
-//   content: "";
-//   position: absolute;
-//   right: -10px;               /* place la flèche à la fin */
-//   top: -6px;                  /* ajuste la hauteur */
-//   width: 0;
-//   height: 0;
-//   border-top: 10px solid transparent;
-//   border-bottom: 10px solid transparent;
-//   border-left: 15px solid #ff00ff; /* flèche pleine */
-// }
