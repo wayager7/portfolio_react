@@ -14,7 +14,7 @@ const Projets = () => {
             <Window nom="Projet_description" id="PD"/>
             <Window nom="Pictures" id="Pictures"/>
         </div>
-        {/* <Travaux /> */}
+        <Travaux />
         </>
     );
 };
