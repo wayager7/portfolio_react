@@ -1,0 +1,50 @@
+.projets-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    
+    .projet{
+        border: solid #FE19FF;
+        margin: 10px;
+        position: relative;
+        cursor: pointer;
+        // height: 30vh;
+
+        .imgdiv{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        h3{
+            margin: 5px;
+            font-size: 1.4rem;
+        }
+        p{
+            margin: 0;
+            margin-left: 5px;
+            font-size: 1.1rem;
+        }
+        .tags{
+            position: absolute;
+            bottom: 8px;
+            span{
+                border: solid 1px #FE19FF;
+                margin-left: 5px;
+                margin-right: 2px;
+                padding: 2px;
+            }
+        }
+    }:hover{
+        background-color: #980093;
+    }
+
+}
