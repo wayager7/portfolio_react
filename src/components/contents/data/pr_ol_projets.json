@@ -1,23 +1,37 @@
 [
     {
         "id": 0,
-        "name":"nom du projet",
-        "description":"blablabla mini_description blablabla",
-        "images":"/projet/projetimg.jpg",
-        "tags": ["tag 1", "tag 2", "tag 3", "tag 4"] 
-    },
-    {
-        "id": 1,
         "name":"projet_name",
         "description":"projet short description for curiosity",
         "images":"/projet/projetimg.jpg",
         "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"]
     },
     {
-        "id": 2,
-        "name":"projet_name HAHAHA",
-        "description":"projet short description for curiosity",
+        "id": 1,
+        "name":"Art&Misia",
+        "description":"exposition virtuelle en 3D pour une galerie d'art fictive",
         "images":"/projet/projetimg.jpg",
-        "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"]
+        "tags": ["3D", "UX/UI", "Three.JS"]
+    },
+    {
+        "id": 2,
+        "name":"MMIVIZ",
+        "description":"",
+        "images":"/projet/projetimg.jpg",
+        "tags":[]
+    },
+    {
+        "id": 3,
+        "name":"Pixel4Charity",
+        "description":"",
+        "images":"/projet/projetimg.jpg",
+        "tags":[]
+    },
+    {
+        "id": 4,
+        "name":"ENT",
+        "description":"",
+        "images":"/projet/projetimg.jpg",
+        "tags":[]
     }
 ]
