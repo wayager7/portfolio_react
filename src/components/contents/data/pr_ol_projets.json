@@ -26,5 +26,33 @@
         "description":"Création d’un projet citoyen fictif pour une association",
         "images":"/projet/p4c/P4Cban.png",
         "tags":["graphisme","Motion Design", "Sound Design"]
+    },
+    {
+        "id": 4,
+        "name":"catarcisse",
+        "description":"",
+        "images":"/projet/ctrcss/blkwtr.jpg",
+        "tags":["rédaction","Sound Design"]
+    },
+    {
+        "id": 5,
+        "name":"interview",
+        "description":"",
+        "images":"/projet/intervw/15.png",
+        "tags":["Motion Design", "Sound Design","montage"]
+    },
+    {
+        "id": 6,
+        "name":"STI2DCOIN",
+        "description":"",
+        "images":"/projet/sti2D/sticoin.png",
+        "tags":["graphisme","3D"]
+    },
+    {
+        "id": 7,
+        "name":"sound_visualizer",
+        "description":"",
+        "images":"/projet/projetimg.jpg",
+        "tags":["Three.JS","3D"]
     }
 ]
