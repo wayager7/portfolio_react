@@ -9,29 +9,22 @@
     {
         "id": 1,
         "name":"Art&Misia",
-        "description":"exposition virtuelle en 3D pour une galerie d'art fictive",
-        "images":"/projet/projetimg.jpg",
-        "tags": ["3D", "UX/UI", "Three.JS"]
+        "description":"exposition virtuelle pour une galerie d'art fictive",
+        "images":"/projet/artemisia/Fdc.png",
+        "tags": ["3D","motion design", "UX/UI", "Three.JS"]
     },
     {
         "id": 2,
         "name":"MMIVIZ",
-        "description":"",
-        "images":"/projet/projetimg.jpg",
-        "tags":[]
+        "description":"Site de data visualisatio des victoires du festial mmi",
+        "images":"/projet/mmiviz/mmivizban.png",
+        "tags":["graphisme","UX/UI", "D3.JS"]
     },
     {
         "id": 3,
         "name":"Pixel4Charity",
-        "description":"",
-        "images":"/projet/projetimg.jpg",
-        "tags":[]
-    },
-    {
-        "id": 4,
-        "name":"ENT",
-        "description":"",
-        "images":"/projet/projetimg.jpg",
-        "tags":[]
+        "description":"Création d’un projet citoyen fictif pour une association",
+        "images":"/projet/p4c/P4Cban.png",
+        "tags":["graphisme","Motion Design", "Sound Design"]
     }
 ]

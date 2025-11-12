@@ -9,6 +9,7 @@ function ProjetsList(){
         <div className='projets-list'>
             {projet.map((p)=>(
                 <>
+                    {/* <h2>selectionne un projet</h2> */}
                     <div key={p.id} className='projet'>
                         <div className='imgdiv'>
                             <img src={p.images} alt={p.name} />

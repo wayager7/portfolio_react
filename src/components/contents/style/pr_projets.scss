@@ -11,17 +11,20 @@
         margin: 10px;
         position: relative;
         cursor: pointer;
-        // height: 30vh;
+        min-height: 45vh;
+        // max-height: 45vh;
 
         .imgdiv{
             width: 100%;
-            height: 60%;
+            height: 25vh;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
+            text-align: center;
             img{
-                width: 100%;
+                min-height: 100%;
+                max-width: 120%;
             }
         }
         h3{
@@ -29,13 +32,17 @@
             font-size: 1.4rem;
         }
         p{
-            margin: 0;
+            margin-top: 0px;
             margin-left: 5px;
-            font-size: 1.1rem;
+            font-size: 1rem;
+            margin-bottom: 70px;
         }
         .tags{
+            // display: none;
             position: absolute;
             bottom: 8px;
+            display: flex;
+            flex-wrap: wrap;
             span{
                 border: solid 1px #FE19FF;
                 margin-left: 5px;
