@@ -1,0 +1,20 @@
+.proj-imgss{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+    div{
+        height: 90%;
+        width: 30%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        border: solid #FE19FF;
+        .proj-img{
+            max-height: 100%;
+        }
+    }
+    
+}

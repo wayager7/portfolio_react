@@ -3,9 +3,8 @@ import projet from './data/pr_ol_projets.json';
 import './style/pr_projets.scss';
 
 function ProjetsList(){
-    const [hoveredId, setHoveredId] = useState(null);
+    const [selectedProjet, setSelectedProjet] = useState(null);
     return(
-
         <div className='projets-list'>
             {projet.map((p)=>(
                 <>

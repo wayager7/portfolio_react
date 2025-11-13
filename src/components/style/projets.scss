@@ -22,5 +22,10 @@
         width: 70vw;
         height: 40vh;
         transform: translateX(-50%);
+        overflow: hidden;
+        .window-content{
+            height: 94%;
+            width: 100%;
+        }
     }
 }
