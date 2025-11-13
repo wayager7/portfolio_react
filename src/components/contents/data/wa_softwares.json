@@ -3,48 +3,48 @@
         "id": 0,
         "name": "photoshop",
         "description": "Logiciel de créaction et de retouche d'images",
-        "image": "/Ps.gif"
+        "image": "/icones/Ps.gif"
     },
     {
         "id": 1,
         "name": "figma",
         "description": "Logiciel de création et de prototypage d'interface utilisateurs",
-        "image": "/figma.gif"
+        "image": "/icones/figma.gif"
     },
     {
         "id": 2,
         "name": "after effect",
         "description": "Logiciel de motion design et d'animation graphique",
-        "image": "/Ae.gif"
+        "image": "/icones/Ae.gif"
     },
     {
         "id": 3,
         "name": "vs code",
         "description": "Logiciel de developpement et d'édition de code",
-        "image": "/vsc.gif"
+        "image": "/icones/vsc.gif"
     },
     {
         "id": 4,
         "name": "blender",
         "description": "Logiciel de modélisation, d'animation et de rendu 3D",
-        "image": "/blender.gif"
+        "image": "/icones/blender.gif"
     },
     {
         "id": 5,
         "name": "fl studio",
         "description": "Logiciel de mixage et de production musicale",
-        "image": "/flstu.gif"
+        "image": "/icones/flstu.gif"
     },
     {
         "id": 6,
         "name": "notion",
         "description": "Logiciel d'organisation et de prise de notes",
-        "image": "/notion.gif"
+        "image": "/icones/notion.gif"
     },
     {
         "id": 7,
         "name": "discord",
         "description": "Logiciel de communuication par texte, voix et vidéo",
-        "image": "/discord.gif"
+        "image": "/icones/discord.gif"
     }
 ]
