@@ -3,15 +3,26 @@
         "id": 0,
         "name":"projet_name",
         "description":"projet short description for curiosity",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
+        "contexte":"contexte. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde molestias natus sunt, modi nesciunt debitis aut minus id tempore provident nemo? Corporis dolores velit atque laboriosam dolorem! Maxime, itaque!",
+        "objectif":"objectifs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde molestias natus sunt, modi nesciunt debitis aut minus id tempore provident nemo? Corporis dolores velit atque laboriosam dolorem! Maxime, itaque!",
+        "choix":"choix. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, nisi in sapiente corporis necessitatibus nam voluptate aliquam rem quae reiciendis illum ab deserunt aut nihil alias velit dicta enim veritatis vero quod. Saepe, perferendis illum labore rerum mollitia quas? Saepe!",
+        "bilan":"bilan. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo numquam ipsa hic officia officiis blanditiis! Repellendus iure sunt soluta autem cum, dicta ipsa ipsum consequuntur atque animi totam pariatur at quam reprehenderit iusto incidunt assumenda. Et, libero quas dolorem atque voluptatibus iusto maiores, numquam excepturi error, ducimus adipisci delectus reprehenderit vitae ipsa voluptas quod debitis at. Nostrum quidem fugit provident?",
         "images":["/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/projetimg.jpg"],
         "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"],
         "date":"20xx/xx/xx",
-        "link":"",
-        "team":[]
+        "link":"https://youtu.be/fIp4VPJ__MY?si=h7N9W3TWRVikuvcT",
+        "team":[
+            {
+                "nom":"FIAGA_Waldi",
+                "role":"role de la personne",
+                "lkdn":"https://youtu.be/fIp4VPJ__MY?si=h7N9W3TWRVikuvcT"
+            },
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"https://youtu.be/fIp4VPJ__MY?si=h7N9W3TWRVikuvcT"
+            }
+        ]
     },
     {
         "id": 1,
