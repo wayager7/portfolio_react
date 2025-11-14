@@ -9,7 +9,7 @@ import Pirctures from "./contents/pr_pictures.jsx";
 
 
 const Projets = () => {
-    let prID = 1;
+    let prID = 0;
     // let Z_des_phy = 3; // Z de description (suite de phybonacchi mdr)
     // let Z_pic_phy = 2
 
@@ -20,7 +20,7 @@ const Projets = () => {
                 <Window nom="Projet_description" id="PD" contenu={<Details prID={prID} />}/>
                 <Window nom="Pictures" id="Pictures" contenu={<Pirctures prID={prID} />} />
             </div>
-            {/* <Travaux /> */}
+            <Travaux />
         </>
     );
 };

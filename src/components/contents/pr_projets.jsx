@@ -9,7 +9,7 @@ function ProjetsList(){
             {projet.map((p)=>(
                 <>
                     {/* <h2>selectionne un projet</h2> */}
-                    <div key={p.id} className='projet'>
+                    <div className='projet' key={p.id} onClick={() => setSelectedProjet(p.id)}>
                         <div className='imgdiv'>
                             <img src={p.images} alt={p.name} />
                         </div>
