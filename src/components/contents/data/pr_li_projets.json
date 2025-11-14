@@ -3,56 +3,142 @@
         "id": 0,
         "name":"projet_name",
         "description":"projet short description for curiosity",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/projetimg.jpg"],
-        "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"]
+        "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[]
     },
     {
         "id": 1,
         "name":"Art&Misia",
         "description":"exposition virtuelle pour une galerie d'art fictive",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/artemisia/paupau3.png", "/projet/artemisia/Coarte2.gif", "/projet/artemisia/gojo.jpg"],
-        "tags": ["3D","motion design", "UX/UI", "Three.JS"]
+        "tags": ["3D","motion design", "UX/UI", "Three.JS"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            }
+        ]
     },
     {
         "id": 2,
         "name":"MMIVIZ",
         "description":"Site de data visualisatio des victoires du festial mmi",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/mmiviz/datavizlogo.png","/projet/mmiviz/figma.png","/projet/mmiviz/stats.png"],
-        "tags":["graphisme","UX/UI", "D3.JS"]
+        "tags":["graphisme","UX/UI", "D3.JS"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            }
+        ]
     },
     {
         "id": 3,
         "name":"Pixel4Charity",
         "description":"Création d’un projet citoyen fictif pour une association",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/p4c/P4Cban.png"],
-        "tags":["graphisme","Motion Design", "Sound Design"]
+        "tags":["graphisme","Motion Design", "Sound Design"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            }
+        ]
     },
     {
         "id": 4,
         "name":"catarcisse",
         "description":"",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/ctrcss/blkwtr.jpg"],
-        "tags":["rédaction","Sound Design"]
+        "tags":["rédaction","Sound Design"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            }
+        ]
     },
     {
         "id": 5,
         "name":"interview",
         "description":"",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/intervw/15.png"],
-        "tags":["Motion Design", "Sound Design","montage"]
+        "tags":["Motion Design", "Sound Design","montage"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[
+            {
+                "nom":"NOM PRENOM",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            }
+        ]
     },
     {
         "id": 6,
         "name":"STI2DCOIN",
         "description":"",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/sti2D/sticoin.png"],
-        "tags":["graphisme","3D"]
+        "tags":["graphisme","3D"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[]
     },
     {
         "id": 7,
         "name":"sound_visualizer",
         "description":"",
+        "contexte":"contexte...",
+        "objectif":"objectifs...",
+        "choix":"choix...",
+        "bilan":"bilan...",
         "images":["/projet/projetimg.jpg"],
-        "tags":["React","Three.JS","3D"]
+        "tags":["React","Three.JS","3D"],
+        "date":"20xx/xx/xx",
+        "link":"",
+        "team":[]
     }
 ]
