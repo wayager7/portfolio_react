@@ -19,7 +19,7 @@ function Time() {
 
 
     return (
-        <div class="time_travel">
+        <div className="time_travel">
             <div className='time_arrow'>
                 <div className='annees'>
                     <p>2022</p>
