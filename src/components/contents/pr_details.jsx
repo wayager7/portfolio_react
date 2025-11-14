@@ -9,7 +9,24 @@ const Details = ({ prID }) => {
     // }
     return (
         <div className="projet-details">
-            <h2>{projetDetails.name}</h2>
+            <div className='top'>
+                <div className='img'>
+                    <img src={projetDetails.images[0]} alt="" />
+                </div>
+                <div className='info'>
+                    <h2>{projetDetails.name}</h2>
+                    <div className='tags'>
+                        {projetDetails.tags.map((tag) => (
+                            <span key={tag} className="tag">{tag}</span>
+                        ))}
+                    </div>
+                </div>
+                
+                {/* if (projetDetails.teammates) {
+                    
+                } */}
+            </div>
+
             <p>{projetDetails.description}</p>
         </div>
     );

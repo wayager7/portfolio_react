@@ -1,0 +1,40 @@
+.projet-details{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    .top{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        .img{
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid #FE19FF;
+            img{
+                height: 100%;
+            }
+        }
+        .info{
+            h2{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 2rem;
+            }
+            .tags{
+                display: flex;
+                flex-wrap: wrap;
+                span{
+                    border: solid 1px #FE19FF;
+                    margin-right: 7px;
+                    padding: 2px;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        
+    }
+}

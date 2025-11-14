@@ -53,6 +53,6 @@
         "name":"sound_visualizer",
         "description":"",
         "images":"/projet/projetimg.jpg",
-        "tags":["Three.JS","3D"]
+        "tags":["React","Three.JS","3D"]
     }
 ]

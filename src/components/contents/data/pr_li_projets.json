@@ -17,7 +17,7 @@
         "id": 2,
         "name":"MMIVIZ",
         "description":"Site de data visualisatio des victoires du festial mmi",
-        "images":["/projet/mmiviz/mmivizban.png"],
+        "images":["/projet/mmiviz/datavizlogo.png","/projet/mmiviz/figma.png","/projet/mmiviz/stats.png"],
         "tags":["graphisme","UX/UI", "D3.JS"]
     },
     {
@@ -53,6 +53,6 @@
         "name":"sound_visualizer",
         "description":"",
         "images":["/projet/projetimg.jpg"],
-        "tags":["Three.JS","3D"]
+        "tags":["React","Three.JS","3D"]
     }
 ]
