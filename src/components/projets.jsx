@@ -9,16 +9,28 @@ import Pirctures from "./contents/pr_pictures.jsx";
 
 
 const Projets = () => {
-    let prID = 0;
-    // let Z_des_phy = 3; // Z de description (suite de phybonacchi mdr)
-    // let Z_pic_phy = 2
+    const [prID, setPrID] = useState(0);
+    const [zDes, setZDes] = useState(2);
+    const [zPic, setZPic] = useState(1);
 
     return (
         <>
-            <div className="projets">
-                <Window nom="Projets" id="projets" contenu={<ProjetsList />}  />
-                <Window nom="Projet_description" id="PD" contenu={<Details prID={prID} />}/>
-                <Window nom="Pictures" id="Pictures" contenu={<Pirctures prID={prID} />} />
+            <div className="projets" >
+                <Window nom="Projets" id="projets" contenu={<ProjetsList />} />
+                <Window 
+                    nom="Projet_description" 
+                    id="PD" 
+                    contenu={<Details prID={prID} />}  
+                    onClick={() => setZDes(zDes + zPic)}
+                    style={{ position: 'fixes', zIndex: zDes }}
+                />
+                <Window 
+                    nom="Pictures" 
+                    id="Pictures" 
+                    contenu={<Pirctures prID={prID} />} 
+                    onClick={() => setZPic(zPic + zDes)} 
+                    style={{ position: 'absolute', zIndex: zPic }} 
+                />
             </div>
             <Travaux />
         </>
