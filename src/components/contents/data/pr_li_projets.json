@@ -10,7 +10,16 @@
         "images":["/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/projetimg.jpg"],
         "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"],
         "date":"20xx/xx/xx",
-        "link":"https://youtu.be/fIp4VPJ__MY?si=h7N9W3TWRVikuvcT",
+        "link":[
+            {
+                "type":"projet",
+                "url":"https://expo-artemisia.site/index.php"
+            },
+            {
+                "type":"youtube",
+                "url":""
+            }
+        ],
         "team":[
             {
                 "nom":"FIAGA_Waldi",
@@ -28,19 +37,57 @@
         "id": 1,
         "name":"Art&Misia",
         "description":"exposition virtuelle pour une galerie d'art fictive",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
+        "contexte":"Pour ce projet, notre équipe avait pour mission de concevoir une exposition virtuelle immersive consacrée à une artiste et l’accompagner d’une stratégie de communication.",
+        "objectif":"Créer un espace adapté au support requis, tout en retranscrivant au mieux l’univers de l’artiste. L’objectif est de le moderniser et d’y insuffler notre propre vision artistique. ",
+        "choix":["Notre choix s’est porté sur Artemisia Gentileschi, une figure emblématique de l’époque baroque, connue pour son style clair-obscur inspiré du caravagisme et son rôle de pionnière du féminisme dans l’art. Pour le territoire d’Artemisia Gentileschi “Toiles d’une vie résiliente”, nous avons imaginé un espace à la fois isolé du monde, inspiré du concept de domaine dans Jujutsu Kaisen, nous en avons fait un jardin italien, en référence aux origines de l’artiste. L’ambiance générale est sombre et dorée, fidèle à son style, avec un jeu de lumière marqué pour rappeler son travail."],
+        "bilan":"Sur ce projet, mes objectifs personnels étaient de mieux comprendre les principes des textures, d’améliorer mon niveau en modélisation et de réussir la transition de Blender vers le Web. Bien que ce projet ait été complexe à réaliser, il a été une excellente expérience.",
         "images":["/projet/artemisia/paupau3.png", "/projet/artemisia/Coarte2.gif", "/projet/artemisia/gojo.jpg"],
         "tags": ["3D","motion design", "UX/UI", "Three.JS"],
-        "date":"20xx/xx/xx",
-        "link":"",
+        "date":"2024/04",
+        "link":[
+            {
+                "type":"projet",
+                "url":"https://expo-artemisia.site/index.php"
+            },
+            {
+                "type":"github",
+                "url":"https://github.com/K0ola/Art-misia"
+            },
+            {
+                "type":"motion design",
+                "url":"https://www.tiktok.com/@agence.artemisia/video/7351003949555666208"
+            }
+        ],
         "team":[
             {
-                "nom":"NOM PRENOM",
-                "role":"role de la personne",
-                "lkdn":"lien linkedin"
+                "nom":"ATTALI_Antoine",
+                "role":"motion designer",
+                "lkdn":"https://www.linkedin.com/in/antoine-attali-575922221"
+            },
+            {
+                "nom":"DOUNG_Caroline",
+                "role":"developpeuse front-end",
+                "lkdn":"https://www.linkedin.com/in/caroline-doung-520394269"
+            },
+            {
+                "nom":"FIAGA_Waldi",
+                "role":"3D artist",
+                "lkdn":"https://www.linkedin.com/in/waldi-fiaga"
+            },
+            {
+                "nom":"GAZENGEL_Pauline",
+                "role":"community manager",
+                "lkdn":"https://www.linkedin.com/in/pauline-g-2434ba251"
+            },
+            {
+                "nom":"MIDEY_Yannick",
+                "role":"developpeur front-end",
+                "lkdn":"https://www.linkedin.com/in/yannick-midey"
+            },
+            {
+                "nom":"zACHARY_Arthur",
+                "role":"developpeur back-end",
+                "lkdn":"https://www.linkedin.com/in/arthur-zachary"
             }
         ]
     },
@@ -87,7 +134,7 @@
     {
         "id": 4,
         "name":"catarcisse",
-        "description":"",
+        "description":"Creation d'un extrait de livre audio fictif",
         "contexte":"contexte...",
         "objectif":"objectifs...",
         "choix":"choix...",
@@ -107,7 +154,7 @@
     {
         "id": 5,
         "name":"interview",
-        "description":"",
+        "description":"interview filmé d'un regisseur général d'une salle de spectacle",
         "contexte":"contexte...",
         "objectif":"objectifs...",
         "choix":"choix...",
@@ -127,7 +174,7 @@
     {
         "id": 6,
         "name":"STI2DCOIN",
-        "description":"",
+        "description":"proposition d'un design pour une cryptomonnaie",
         "contexte":"contexte...",
         "objectif":"objectifs...",
         "choix":"",
@@ -141,7 +188,7 @@
     {
         "id": 7,
         "name":"sound_visualizer",
-        "description":"",
+        "description":"site visualiseur de musique en 3D",
         "contexte":"contexte...",
         "objectif":"objectifs...",
         "choix":"choix...",

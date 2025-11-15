@@ -30,28 +30,28 @@
     {
         "id": 4,
         "name":"catarcisse",
-        "description":"",
+        "description":"Creation d'un extrait de livre audio fictif",
         "images":"/projet/ctrcss/blkwtr.jpg",
         "tags":["rédaction","Sound Design"]
     },
     {
         "id": 5,
         "name":"interview",
-        "description":"",
+        "description":"interview filmé d'un regisseur général d'une salle de spectacle",
         "images":"/projet/intervw/15.png",
         "tags":["Motion Design", "Sound Design","montage"]
     },
     {
         "id": 6,
         "name":"STI2DCOIN",
-        "description":"",
+        "description":"proposition d'un design pour une cryptomonnaie",
         "images":"/projet/sti2D/sticoin.png",
         "tags":["graphisme","3D"]
     },
     {
         "id": 7,
         "name":"sound_visualizer",
-        "description":"",
+        "description":"site visualiseur de musique en 3D",
         "images":"/projet/projetimg.jpg",
         "tags":["React","Three.JS","3D"]
     }
