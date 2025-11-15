@@ -10,7 +10,7 @@ import Pirctures from "./contents/pr_pictures.jsx";
 
 const Projets = () => {
     const [prID, setPrID] = useState(0);
-    const [zDes, setZDes] = useState(2);
+    const [zDes, setZDes] = useState(1);
     const [zPic, setZPic] = useState(1);
 
     return (
