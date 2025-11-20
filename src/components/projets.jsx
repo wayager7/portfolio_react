@@ -9,18 +9,22 @@ import Pirctures from "./contents/pr_pictures.jsx";
 
 
 const Projets = () => {
-    const [prID, setPrID] = useState(0);
+    const [prID, setPrID] = useState(7);
     const [zDes, setZDes] = useState(1);
     const [zPic, setZPic] = useState(1);
+
+    React.useEffect(() => {
+        console.log('prID a changé :', prID);
+    }, [prID]);
 
     return (
         <>
             <div className="projets" >
-                <Window nom="Projets" id="projets" contenu={<ProjetsList />} />
+                <Window nom="Projets" id="projets" contenu={<ProjetsList onSelectProjet={setPrID} />} />
                 <Window 
                     nom="Projet_description" 
                     id="PD" 
-                    contenu={<Details prID={prID} />}  
+                    contenu={<Details prID={prID} />} 
                     onClick={() => setZDes(zDes + zPic)}
                     style={{ position: 'fixes', zIndex: zDes }}
                 />
@@ -32,7 +36,7 @@ const Projets = () => {
                     style={{ position: 'absolute', zIndex: zPic }} 
                 />
             </div>
-            <Travaux />
+            {/* <Travaux /> */}
         </>
     );
 };

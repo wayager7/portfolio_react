@@ -1,17 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import projet from './data/pr_li_projets.json';
 import './style/pr_details.scss';
 
 const Details = ({ prID }) => {
-    const [projetDetails, setProjetDetails] = useState(projet.find(p => p.id === prID));
+    // const [projetDetails, setProjetDetails] = useState(projet.find(p => p.id === prID));
     // if (!projetDetails) {
     //     return <div>Projet non trouvé</div>;
     // }
+
+    const [projetDetails, setProjetDetails] = useState(null);
+
+    // Met à jour quand prID change
+    useEffect(() => {
+        const details = projet.find(p => p.id === prID);
+        setProjetDetails(details);
+        console.log('Details mise à jour avec prID:', prID, details);
+    }, [prID]);
+
+    if (!projetDetails) {
+        return <div>Projet non trouvé</div>;
+    }
+
     return (
         <div className="projet-details">
             <div className='top'>
                 <div className='img'>
-                    <img src={projetDetails.images[0]} alt="" />
+                    <img src={projetDetails.images[3]} alt="" />
                 </div>
                 <div className='info'>
                     <h2>{projetDetails.name}</h2>
@@ -24,7 +38,7 @@ const Details = ({ prID }) => {
                     {projetDetails.link && (
                         projetDetails.link.map((linkobj, index) =>(
                             <>
-                                <a key={index} href={linkobj.url} target="_blank" rel="noopener noreferrer">{linkobj.type}</a> •
+                                <a key={index} href={linkobj.url} target="_blank" rel="noopener noreferrer">{linkobj.type}</a> •<span> </span>
                             </>
                         ))
                     )}
@@ -69,7 +83,7 @@ const Details = ({ prID }) => {
                             <div key={index} className='member'>
                                 <a key={index} href={member.lkdn}>{member.nom}</a>
                                 <br />
-                                <span> - {member.role}</span>
+                                <span>{member.role}</span>
                             </div>
                         ))}
                     </div>

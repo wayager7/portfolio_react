@@ -2,14 +2,20 @@ import react, { useState } from 'react';
 import projet from './data/pr_ol_projets.json';
 import './style/pr_projets.scss';
 
-function ProjetsList(){
+function ProjetsList({ onSelectProjet }){
     const [selectedProjet, setSelectedProjet] = useState(null);
+
+    const handleSelectProjet = (id) => {
+        setSelectedProjet(id);
+        onSelectProjet(id);  // envoie l'id au parent
+    };//merci copilot
+
     return(
         <div className='projets-list'>
             {projet.map((p)=>(
                 <>
                     {/* <h2>selectionne un projet</h2> */}
-                    <div className='projet' key={p.id} onClick={() => setSelectedProjet(p.id)}>
+                    <div className='projet' key={p.id} onClick={() => handleSelectProjet(p.id)}>
                         <div className='imgdiv'>
                             <img src={p.images} alt={p.name} />
                         </div>
