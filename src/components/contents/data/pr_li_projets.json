@@ -7,7 +7,7 @@
         "objectif":"objectifs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde molestias natus sunt, modi nesciunt debitis aut minus id tempore provident nemo? Corporis dolores velit atque laboriosam dolorem! Maxime, itaque!",
         "choix":"choix. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, nisi in sapiente corporis necessitatibus nam voluptate aliquam rem quae reiciendis illum ab deserunt aut nihil alias velit dicta enim veritatis vero quod. Saepe, perferendis illum labore rerum mollitia quas? Saepe!",
         "bilan":"bilan. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo numquam ipsa hic officia officiis blanditiis! Repellendus iure sunt soluta autem cum, dicta ipsa ipsum consequuntur atque animi totam pariatur at quam reprehenderit iusto incidunt assumenda. Et, libero quas dolorem atque voluptatibus iusto maiores, numquam excepturi error, ducimus adipisci delectus reprehenderit vitae ipsa voluptas quod debitis at. Nostrum quidem fugit provident?",
-        "images":["/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/projetimg.jpg"],
+        "images":["/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/projetimg.jpg", "/projet/artemisia/arteban.png"],
         "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"],
         "date":"20xx/xx/xx",
         "link":[
@@ -41,7 +41,7 @@
         "objectif":"Créer un espace adapté au support requis, tout en retranscrivant au mieux l’univers de l’artiste. L’objectif est de le moderniser et d’y insuffler notre propre vision artistique. ",
         "choix":["Notre choix s’est porté sur Artemisia Gentileschi, une figure emblématique de l’époque baroque, connue pour son style clair-obscur inspiré du caravagisme et son rôle de pionnière du féminisme dans l’art. Pour le territoire d’Artemisia Gentileschi “Toiles d’une vie résiliente”, nous avons imaginé un espace à la fois isolé du monde, inspiré du concept de domaine dans Jujutsu Kaisen, nous en avons fait un jardin italien, en référence aux origines de l’artiste. L’ambiance générale est sombre et dorée, fidèle à son style, avec un jeu de lumière marqué pour rappeler son travail."],
         "bilan":"Sur ce projet, mes objectifs personnels étaient de mieux comprendre les principes des textures, d’améliorer mon niveau en modélisation et de réussir la transition de Blender vers le Web. Bien que ce projet ait été complexe à réaliser, il a été une excellente expérience.",
-        "images":["/projet/artemisia/paupau3.png", "/projet/artemisia/Coarte2.gif", "/projet/artemisia/gojo.jpg"],
+        "images":["/projet/artemisia/paupau3.png", "/projet/artemisia/Coarte2.gif", "/projet/artemisia/gojo.jpg", "/projet/artemisia/arteban.png"],
         "tags": ["3D","motion design", "UX/UI", "Three.JS"],
         "date":"2024/04",
         "link":[
@@ -95,19 +95,29 @@
         "id": 2,
         "name":"MMIVIZ",
         "description":"Site de data visualisatio des victoires du festial mmi",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
-        "images":["/projet/mmiviz/datavizlogo.png","/projet/mmiviz/figma.png","/projet/mmiviz/stats.png"],
+        "contexte":"",
+        "objectif":"Développer un site one-page de data visualisation présentant les résultats du Festival MMI à l’aide de la bibliothèque D3.js. Rédiger des mentions légales complète en citant toutes les sources utilisées.",
+        "choix":"",
+        "bilan":"",
+        "images":["/projet/mmiviz/mmivizban.png","/projet/mmiviz/figma.png","/projet/mmiviz/stats.png","/projet/mmiviz/datavizlogo.png"],
         "tags":["graphisme","UX/UI", "D3.JS"],
-        "date":"20xx/xx/xx",
-        "link":"",
+        "date":"2023/11",
+        "link":[
+            {
+                "type":"github",
+                "url":"https://github.com/wayager7/MMIViz"
+            }
+        ],
         "team":[
             {
-                "nom":"NOM PRENOM",
-                "role":"role de la personne",
-                "lkdn":"lien linkedin"
+                "nom":"FIAGA_Waldi",
+                "role":"developpeur front-end",
+                "lkdn":"https://www.linkedin.com/in/waldi-fiaga"
+            },
+            {
+                "nom":"ZARKA_Moargan",
+                "role":"developpeur back-end",
+                "lkdn":"https://www.linkedin.com/in/morgan-zarka"
             }
         ]
     },
@@ -115,18 +125,43 @@
         "id": 3,
         "name":"Pixel4Charity",
         "description":"Création d’un projet citoyen fictif pour une association",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
-        "images":["/projet/p4c/P4Cban.png"],
+        "contexte":"Avec mon équipe, nous avons créé un projet citoyen : Pixel4Charity, une LAN party qui, par éditions, collabore avec une association pour les soutenir.",
+        "objectif":"Concevoir les supports de communication associés (affiches, site web, réseaux sociaux, etc.).",
+        "choix":"",
+        "bilan":"",
+        "images":["/projet/p4c/P4Cban.png","","","/projet/p4c/p4clogo.png"],
         "tags":["graphisme","Motion Design", "Sound Design"],
-        "date":"20xx/xx/xx",
-        "link":"",
+        "date":"2023/06",
+        "link":[
+            {
+                "type":"youtube",
+                "url":"https://www.youtube.com/watch?v=aTU2W-Qleio"
+            }
+        ],
         "team":[
             {
-                "nom":"NOM PRENOM",
-                "role":"role de la personne",
+                "nom":"CALMETTE_Noah",
+                "role":"web Developpeur",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"DA-CRUZ_Guillaume",
+                "role":"designer",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"FIAGA_Waldi",
+                "role":"motion designer",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"LESAULT_Konan-Hoël",
+                "role":"motion designer",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"MIDEY_Yannick",
+                "role":"web Developpeur",
                 "lkdn":"lien linkedin"
             }
         ]
@@ -135,17 +170,32 @@
         "id": 4,
         "name":"catarcisse",
         "description":"Creation d'un extrait de livre audio fictif",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
+        "contexte":"À partir d’un visuel, nous devions imaginer et créer un extrait de livre audio fictif, en nous inspirant de l’ambiance et des éléments visuels qui émanaient de l’image.",
+        "objectif":"",
+        "choix":"Nous avons opté pour la couverture du roman La Crue de la série Black Water de Michael McDowell et avons décidé d’adopter un style horrifique et mystérieux pour l’écriture du scénario.",
+        "bilan":"",
         "images":["/projet/ctrcss/blkwtr.jpg"],
         "tags":["rédaction","Sound Design"],
-        "date":"20xx/xx/xx",
+        "date":"2023/11",
         "link":"",
         "team":[
             {
-                "nom":"NOM PRENOM",
+                "nom":"ALMEIDA-GOMES_Tania",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"FIAGA_Waldi",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"MENANTEAU_Alisson",
+                "role":"role de la personne",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"OUEDRAOGO_Maria",
                 "role":"role de la personne",
                 "lkdn":"lien linkedin"
             }
@@ -155,18 +205,38 @@
         "id": 5,
         "name":"interview",
         "description":"interview filmé d'un regisseur général d'une salle de spectacle",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
-        "choix":"choix...",
-        "bilan":"bilan...",
+        "contexte":"C’est en équipe que nous avons préparé notre rencontre et que nous sommes allés interviewer Jean-Baptiste Badiane, le régisseur général de la salle de spectacle Gérard Phillipe. Enfin, individuellement, nous avons réalisé un montage avec les rushs enregistré ensemble et ajoutés des sous-titres en anglais.",
+        "objectif":"",
+        "choix":"Pour l’introduction, je me suis inspiré d’un jeu auquel il nous arrivait de jouer tous ensemble pendant notre temps libre, petite référence au temps passé ensemble. Les musiques sont des composition personnelles pour suivre et influencer l’émotion du public.",
+        "bilan":"Si c’était à refaire aujourd'hui, je prêterais davantage d’attentions aux sous-titres: Mon niveau en anglais s’est amélioré et je pourrais mieux traduire, la manière dont ils paraissent sur le rendu pourrait être retravaillé déjà au niveau de la taille.",
         "images":["/projet/intervw/15.png"],
         "tags":["Motion Design", "Sound Design","montage"],
         "date":"20xx/xx/xx",
-        "link":"",
+        "link":[
+            {
+                "type":"youtube",
+                "url":"https://www.youtube.com/watch?v=NtPgAtM33eM"
+            }
+        ],
         "team":[
             {
-                "nom":"NOM PRENOM",
-                "role":"role de la personne",
+                "nom":"DA-CRUZ_Guillaume",
+                "role":"Questionnaire",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"FIAGA_Waldi",
+                "role":"ingé son - montage",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"LESAULT_Konan-Hoël",
+                "role":"cadreur",
+                "lkdn":"lien linkedin"
+            },
+            {
+                "nom":"MIDEY_Yannick",
+                "role":"lumieres",
                 "lkdn":"lien linkedin"
             }
         ]
@@ -175,15 +245,15 @@
         "id": 6,
         "name":"STI2DCOIN",
         "description":"proposition d'un design pour une cryptomonnaie",
-        "contexte":"contexte...",
-        "objectif":"objectifs...",
+        "contexte":"Au lycée, j’ai rejoint un serveur Discord communautaire dédié aux lycéens et aux anciens de la filière STI2D. Un jour, certains membres ont eu l’idée de créer une cryptomonnaie spécifique à la STI2D et ont ouvert un salon pour proposer des designs basés sur le starter pack de la filière.",
+        "objectif":"À partir du design que j’avais créé, réaliser un véritable modèle 3D et explorer des rendus intéressants, simplement pour le plaisir de créer.",
         "choix":"",
         "bilan":"",
         "images":["/projet/sti2D/sticoin.png"],
         "tags":["graphisme","3D"],
         "date":"20xx/xx/xx",
         "link":"",
-        "team":[]
+        "team":""
     },
     {
         "id": 7,
@@ -197,6 +267,6 @@
         "tags":["React","Three.JS","3D"],
         "date":"20xx/xx/xx",
         "link":"",
-        "team":[]
+        "team":""
     }
 ]
