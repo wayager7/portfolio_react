@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "nom": "son",
+        "type": 1,
+        "fichier": "/gallery/",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 1,
+        "nom": "gay_alina.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 1,
+        "nom": "gay_alina.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 1,
+        "nom": "gay_alina.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 1,
+        "nom": "gay_alina.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 1,
+        "nom": "gay_alina.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 2,
+        "nom": "video",
+        "type": 3,
+        "fichier": "/gallery/",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    }
+]
