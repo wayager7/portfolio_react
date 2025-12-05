@@ -22,7 +22,7 @@ const Details = ({ prID }) => {
     }
 
     return (
-        <div className="projet-details">
+        <div className={projetDetails.name + " projet-details"}>
             <div className='top'>
                 <div className='img'>
                     <img src={projetDetails.images[3]} alt="" />

@@ -1,11 +1,5 @@
 [
-    {
-        "id": 0,
-        "name":"projet_name",
-        "description":"projet short description for curiosity",
-        "images":"/projet/projetimg.jpg",
-        "tags": ["HTML/CSS", "Typescript", "3D", "UX/UI"]
-    },
+
     {
         "id": 1,
         "name":"Art&Misia",
@@ -47,12 +41,5 @@
         "description":"proposition d'un design pour une cryptomonnaie",
         "images":"/projet/sti2D/sticoin.png",
         "tags":["graphisme","3D"]
-    },
-    {
-        "id": 7,
-        "name":"sound_visualizer",
-        "description":"site visualiseur de musique en 3D",
-        "images":"/projet/projetimg.jpg",
-        "tags":["React","Three.JS","3D"]
     }
 ]
