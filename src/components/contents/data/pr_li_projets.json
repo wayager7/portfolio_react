@@ -129,7 +129,7 @@
         "objectif":"Concevoir les supports de communication associés (affiches, site web, réseaux sociaux, etc.).",
         "choix":"",
         "bilan":"",
-        "images":["/projet/p4c/P4Cban.png","","","/projet/p4c/p4clogo.png"],
+        "images":["/projet/p4c/P4Cban.png","/projet/p4c/insta.png","/projet/p4c/charte.png","/projet/p4c/p4clogo.png"],
         "tags":["graphisme","Motion Design", "Sound Design"],
         "date":"2023/06",
         "link":[
@@ -211,7 +211,7 @@
         "bilan":"Si c’était à refaire aujourd'hui, je prêterais davantage d’attentions aux sous-titres: Mon niveau en anglais s’est amélioré et je pourrais mieux traduire, la manière dont ils paraissent sur le rendu pourrait être retravaillé déjà au niveau de la taille.",
         "images":["/projet/intervw/15.png","/projet/intervw/image 23.png","/projet/intervw/image.png","/projet/intervw/image1.png"],
         "tags":["Motion Design", "Sound Design","montage"],
-        "date":"20xx/xx/xx",
+        "date":"2023/01",
         "link":[
             {
                 "type":"youtube",
@@ -251,7 +251,7 @@
         "bilan":"",
         "images":["/projet/sti2D/sticoin.png","/projet/sti2D/gif.gif", "/projet/sti2D/screen1.png", "/projet/sti2D/ormieux.png"],
         "tags":["graphisme","3D"],
-        "date":"20xx/xx/xx",
+        "date":"2021/08",
         "link":"",
         "team":""
     },
