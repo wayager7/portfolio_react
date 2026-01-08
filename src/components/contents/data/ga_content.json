@@ -16,39 +16,39 @@
         "date_crea": "20xx-xx-xx"
     },
     {
-        "id": 1,
-        "nom": "gay_alina.jpeg",
-        "type": 2,
-        "fichier": "/gallery/galyna.png",
-        "description": "",
-        "date_crea": "20xx-xx-xx"
-    },
-    {
-        "id": 1,
-        "nom": "gay_alina.jpeg",
-        "type": 2,
-        "fichier": "/gallery/galyna.png",
-        "description": "",
-        "date_crea": "20xx-xx-xx"
-    },
-    {
-        "id": 1,
-        "nom": "gay_alina.jpeg",
-        "type": 2,
-        "fichier": "/gallery/galyna.png",
-        "description": "",
-        "date_crea": "20xx-xx-xx"
-    },
-    {
-        "id": 1,
-        "nom": "gay_alina.jpeg",
-        "type": 2,
-        "fichier": "/gallery/galyna.png",
-        "description": "",
-        "date_crea": "20xx-xx-xx"
-    },
-    {
         "id": 2,
+        "nom": "caca.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 3,
+        "nom": "test3.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 4,
+        "nom": "super.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 5,
+        "nom": "ça_marche.jpeg",
+        "type": 2,
+        "fichier": "/gallery/galyna.png",
+        "description": "",
+        "date_crea": "20xx-xx-xx"
+    },
+    {
+        "id": 6,
         "nom": "video",
         "type": 3,
         "fichier": "/gallery/",

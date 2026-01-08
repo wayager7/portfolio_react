@@ -20,14 +20,14 @@ const Gallery = () => {
                 style={{ zIndex: zGal }}
 
             />
-            {/* <Window 
+            <Window 
                 nom="result" 
                 id="result" 
                 contenu={<p>Voici quelques images de mes projets :</p>}
                 onClick={() => setZRes(zGal + 1)}
                 style={{ zIndex: zRes }}
 
-            /> */}
+            />
         </div>
         <Travaux />
         </>
