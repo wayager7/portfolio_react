@@ -5,9 +5,9 @@ function Time() {
     const [selectedOption, setSelectedOption] = useState(null);
     const [displayText, setDisplayText] = useState('');
     const infos = useMemo(() => ([
-        { id: "un", title: "BAC Science Technologie de l'Industrie et du Développement Durable", image: "/logoSTI.jpg", date: "2020 - 2022", description: "caca"},
-        { id: "deux", title: "BUT Métiers du Multimédia et de l'Internet", image: "/logoMMI.png", date: "2022 - 2025", description: "caca"},
-        { id: "trois", title: "MASTER Science Sociale Culture et Metiers du Web", image: "logoCMW.jpg", date: "2025 - 2027", description: "caca"},
+        { id: "un", title: "BAC Science Technologie de l'Industrie et du Développement Durable", image: "/logoSTI.jpg", date: "2020 - 2022", description: "Filière technologique centrée sur l'innovation, la conception technique et l'ingénierie, tout en intégrant systématiquement les enjeux environnementaux et la transition énergétique."},
+        { id: "deux", title: "BUT Métiers du Multimédia et de l'Internet", image: "/logoMMI.png", date: "2022 - 2025", description: "Formation pluridisciplinaire en trois ans qui fusionne la création numérique, le développement web et la stratégie de communication."},
+        { id: "trois", title: "MASTER Science Sociale Culture et Metiers du Web", image: "logoCMW.jpg", date: "2025 - 2027", description: "Formation des stratèges du numérique capables de piloter des projets complexes en mêlant design de communication, marketing digital et gestion technique de plateformes web."},
     ]), []);
 
     const handleCrochetClick = (id) => {
