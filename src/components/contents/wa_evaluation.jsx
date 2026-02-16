@@ -5,8 +5,8 @@ import './style/wa_evaluation.scss';
 
 function Evaluation() {
     const data = useMemo(() => ([
-    { subject: "Audio", value: 40, color: "#15ff00", description: "montage sonore, production de musique, mixage" },
-    { subject: "dev", value: 60, color: "#00EAff", description: "développement web (HTML, JS, TS, React, Angular, ThreeJS, CSS, SCSS, PHP), programmation C#, API" },
+    { subject: "Audio", value: 60, color: "#15ff00", description: "montage sonore, production de musique, mixage" },
+    { subject: "dev", value: 80, color: "#00EAff", description: "développement web (HTML, JS, TS, React, Angular, ThreeJS, CSS, SCSS, PHP), programmation C#, API" },
     { subject: "design", value: 80, color: "#fbff00", description: "design graphique, UX/UI, dessin, illustration, Direction artistique" },
     { subject: "video", value: 40, color: "#ff0000", description: "montage vidéo, effets spéciaux, post-production, motion design" },
     { subject: "3D", value: 60, color: "#6E00FF", description: "modélisation 3D, animation, rendu" },
