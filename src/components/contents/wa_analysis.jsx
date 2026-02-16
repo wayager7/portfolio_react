@@ -62,7 +62,7 @@ function Analysis() {
                 </div>
             </div>
             <div className="ana_answere">
-                <p>{displayText}</p>
+                <p>{displayText || 'Cliquez sur une option pour découvrir...'}</p>
             </div>
         </div>
     );
